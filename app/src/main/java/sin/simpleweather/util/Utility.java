@@ -1,20 +1,5 @@
 package sin.simpleweather.util;
 
-/**
- * Created by Sin on 2017/3/5.
- */
-
-        import android.text.TextUtils;
-
-        import sin.simpleweather.db.City;
-        import sin.simpleweather.db.County;
-        import sin.simpleweather.db.Province;
-        import com.google.gson.Gson;
-
-        import org.json.JSONArray;
-        import org.json.JSONException;
-        import org.json.JSONObject;
-
 public class Utility {
 
     /**

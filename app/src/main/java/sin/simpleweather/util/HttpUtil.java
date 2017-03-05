@@ -1,9 +1,5 @@
 package sin.simpleweather.util;
 
-/**
- * Created by Sin on 2017/3/5.
- */
-
         import okhttp3.OkHttpClient;
         import okhttp3.Request;
 

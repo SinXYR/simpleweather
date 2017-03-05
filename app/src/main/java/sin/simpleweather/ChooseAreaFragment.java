@@ -1,40 +1,35 @@
 package sin.simpleweather;
 
-/**
- * Created by Sin on 2017/3/5.
- */
+import android.app.ProgressDialog;
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.ListView;
+import android.widget.TextView;
+import android.widget.Toast;
 
+import com.coolweather.android.db.City;
+import com.coolweather.android.db.County;
+import com.coolweather.android.db.Province;
+import com.coolweather.android.util.HttpUtil;
+import com.coolweather.android.util.Utility;
 
-        import android.app.ProgressDialog;
-        import android.content.Intent;
-        import android.os.Bundle;
-        import android.support.v4.app.Fragment;
-        import android.util.Log;
-        import android.view.LayoutInflater;
-        import android.view.View;
-        import android.view.ViewGroup;
-        import android.widget.AdapterView;
-        import android.widget.ArrayAdapter;
-        import android.widget.Button;
-        import android.widget.ListView;
-        import android.widget.TextView;
-        import android.widget.Toast;
+import org.litepal.crud.DataSupport;
 
-        import sin.simpleweather.db.City;
-        import sin.simpleweather.db.County;
-        import sin.simpleweather.db.Province;
-        import sin.simpleweather.util.HttpUtil;
-        import sin.simpleweather.util.Utility;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
-        import org.litepal.crud.DataSupport;
-
-        import java.io.IOException;
-        import java.util.ArrayList;
-        import java.util.List;
-
-        import okhttp3.Call;
-        import okhttp3.Callback;
-        import okhttp3.Response;
+import okhttp3.Call;
+import okhttp3.Callback;
+import okhttp3.Response;
 
 public class ChooseAreaFragment extends Fragment {
 
@@ -277,4 +272,4 @@ public class ChooseAreaFragment extends Fragment {
         }
     }
 
-}
+}}.

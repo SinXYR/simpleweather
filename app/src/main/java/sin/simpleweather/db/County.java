@@ -1,9 +1,5 @@
 package sin.simpleweather.db;
 
-/**
- * Created by Sin on 2017/3/5.
- */
-
 public class County extends DataSupport {
     private int id;
     private String countyName;
